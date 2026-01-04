@@ -9,14 +9,7 @@ const Home = () => {
     }
     return (
         <div>
-            <h1>Hello world</h1>
-            <input
-                type="text"
-            value={text}
-            onChange={e => setText(e.target.value)}
-            />
-
-            <span>{text}</span>
+            
         </div>
     );
 };
