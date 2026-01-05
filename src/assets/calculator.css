@@ -1,4 +1,21 @@
-.btn{
-    border:none;
-    background-color: #4CAF50;
+#result, #result0, #syConvertPrice, #syChangePrice {
+  font-size: 14px;
+}
+
+.language-div span {
+  color: purple;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.copy-success {
+  color: #00F71D;
+  font-size: 14px;
+  transition: opacity 0.3s ease;
+}
+
+.tracking-output-line {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
 }

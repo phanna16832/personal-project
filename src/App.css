@@ -1,0 +1,60 @@
+body {
+  background: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.date {
+  color: purple;
+  font-weight: bold;
+}
+
+.card {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+input,
+select,
+button {
+  display: block;
+  margin: 8px 0;
+  padding: 6px;
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+.result0 {
+  color: orange;
+  font-weight: bold;
+}
+
+.result {
+  white-space: pre-wrap;
+}
+
+.copy-msg {
+  color: green;
+}
+
+.tracking-line {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
